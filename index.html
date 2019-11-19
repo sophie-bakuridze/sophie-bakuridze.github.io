@@ -1,0 +1,639 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Cammegh Roulette</title>
+	<link rel="stylesheet" type="text/css" href="Content/Styles/Style1.css">
+</head>
+<body>
+    <div class="game-div"> <!--open class game div-->
+    	<div class="header-div"> <!-- open header-div-->
+    		<div class="header-item"> <!--open header items div-->
+    			<div class="test"> <!--test-->
+    			<div class="balance"><!-- open balance div-->
+    				<img src="Content/Images/GelSymbol.png" alt="Gel">
+    				<span class="Money-caption">ბალანსი</span>
+    				<span class="money">584.56</span>
+    				<span class="gel">₾</span>
+    			</div><!-- close balance div-->	
+    			<div class="bet-win-divs"> <!--open bet/ win divs-->
+    				<div class="bet"><span class="bet-caption">ფსონი</span><span class="bet-numbers">11.56 ₾</span></div>
+    				<div class="win"><span class="win-caption">მოგება</span><span class="win-numbers">384.56 ₾</span></div>
+    			</div><!-- close bet/ win divs --> 
+    			<div class="Jackpot-div"><!--open Jackpot div-->
+    				<span class="jackpot-title">JACKPOT</span>
+    				<span class="jackpot-number">067890.15</span>
+    			</div><!--Close jackpot div-->
+    			<div class="video-stream"><!--open video stream div-->
+    				<img class="video" src="Content/Images/video.png">
+    				<span class="video-caption">VIDEO</span>
+    			</div><!--Close video stream div-->
+    			<div class="last-100"><!--open last 100 numbers div-->
+    				<div class="item">7</div>
+    				<div class="item">18</div>
+    				<div class="item">24</div>
+    				<div class="item">9</div>
+    				<div class="item-100">+100</div>
+    			</div><!--close +100 div-->	
+    		</div><!--end test-->
+    		<div class="menu"><!--menu div -->
+    			<img class="menu-button" src="Content/Images/menuicon.png">
+    		</div>	<!-- close menu div-->
+    		</div><!--Close header-items div-->
+    		<div class="loader"><!--open loader div-->
+    			<div class="timer-on"> <!-- open timer div-->	
+    			</div><!--close timer div -->
+    		</div><!--close loader div-->
+    	</div><!--close header-div -->
+    	<div class="board"><!--open board div-->
+    		<div class="game-table"><!--open game-table div -->
+    			<div class="grid-container"><!--Grid contariner-->
+    				<div class="item-grid zero">0</div>
+    				<div class="item-grid red-items">3</div>
+    				<div class="item-grid black-items">6</div>
+    				<div class="item-grid red-items">9</div>
+    				<div class="item-grid red-items">12</div>
+    				<div class="item-grid black-items">15</div>
+    				<div class="item-grid red-items">18</div>
+    				<div class="item-grid red-items">21</div>
+    				<div class="item-grid black-items">24</div>
+    				<div class="item-grid red-items">27</div>
+    				<div class="item-grid red-items">30</div>
+    				<div class="item-grid black-items">33</div>
+    				<div class="item-grid red-items">36</div>
+    				<div class="item-grid other-bets">2 to 1</div>
+    				<div class="item-grid black-items">2</div>
+    				<div class="item-grid red-items">5</div>
+    				<div class="item-grid black-items">8</div>
+    				<div class="item-grid black-items">11</div>
+    				<div class="item-grid red-items">14</div>
+    				<div class="item-grid black-items">17</div>
+    				<div class="item-grid black-items">20</div>
+    				<div class="item-grid red-items">23</div>
+    				<div class="item-grid black-items">26</div>
+    				<div class="item-grid black-items">29</div>
+    				<div class="item-grid red-items">32</div>
+    				<div class="item-grid black-items">35</div>
+    				<div class="item-grid other-bets">2 to 1</div>
+    				<div class="item-grid red-items">1</div>
+    				<div class="item-grid black-items">4</div>
+    				<div class="item-grid red-items">7</div>
+    				<div class="item-grid black-items">10</div>
+    				<div class="item-grid black-items">13</div>
+    				<div class="item-grid red-items">16</div>
+    				<div class="item-grid red-items">19</div>
+    				<div class="item-grid black-items">22</div>
+    				<div class="item-grid red-items">25</div>
+    				<div class="item-grid black-items">28</div>
+    				<div class="item-grid black-items">31</div>
+    				<div class="item-grid red-items">34</div>
+    				<div class="item-grid other-bets last-item">2 to 1</div>
+    			</div><!--close grid container 1-->
+    			<div class="grid-bets">
+    				<div class="grid-bets-items grid-bets-row">1 <sup> st </sup> 12</div>
+    				<div class="grid-bets-items grid-bets-row1">2 <sup> nd </sup>12</div>
+    				<div class="grid-bets-items grid-bets-row2">3 <sup> rd </sup> 12</div>
+    				<div class="grid-bets-items">1 - 18</div>
+    				<div class="grid-bets-items">EVEN</div>
+    				<div class="grid-bets-items"><img class="all-red-bet" src="Content/Images/red.png" alt="red"></div>
+    				<div class="grid-bets-items"><img class="all-red-bet" src="Content/Images/black.png" alt="black"></div>
+    				<div class="grid-bets-items">ODD</div>
+    				<div class="grid-bets-items">19 - 36</div>
+    			</div>
+    		</div><!--Close game table div-->
+    	</div><!--close board div-->
+        <div class="footer-div"><!--open footer div-->
+        	<div class="same-properties statistics"><!--open statistic div-->
+        	</div><!--close statistic div-->
+        	<div class="same-properties racetracks"><!--open racetrack div-->
+        	</div><!--close racetrack div-->
+        	<div class="same-properties chips"><!--open coin div-->
+        		<img class="chip-img" src="Content/Images/chip.png">
+        	</div><!--close coin div-->
+        	<div class="same-properties favorites"><!--open favorites div-->	
+        	</div><!--close favorites div-->
+        	<div class="same-properties rebet"><!--open rebet div-->
+        		<img src="Content/Images/rebet.png">
+        		<p>REBET</p>
+        	</div><!--close rebet div-->
+        	<div class="same-properties double"><!--open double div-->
+        		<img src="Content/Images/double.png">
+        		<p>DOUBLE</p>
+        	</div><!--close rebet div-->
+        	<div class="same-properties complete"><!--open complete div-->
+        		<img src="Content/Images/complete.png">
+        		<p>COMPLETE</p>
+        	</div><!--close complete div-->
+        	<div class="same-properties clear"><!--open clear div-->
+        		<img src="Content/Images/clear.png">
+        		<p>CLEAR</p>
+        	</div><!--close clear div-->
+        	<div class="same-properties undo"><!--open undo div-->
+        		<img src="Content/Images/undo.png">
+        		<p>UNDO</p>
+        	</div><!--close undo div-->
+        </div><!--close footer div-->
+        <div class="drop-down-menu-board"><!-- close drop down menu-board-->
+             <div class="drop-down-menu"><!--open  menu drop-down div -->
+            	<div class="drop-menu-header"><!--open drop-menu-header-->
+            		<span>SPIN ID:</span>
+            		<p>32465</p>
+            		<img class="sound-button" src="Content/Images/sound.png">
+            		<img class="X-button" src="Content/Images/xbutton.png">
+            	</div><!--close drop-menu-header-->
+            	<div class="drop-menu-list"> <!--open drop down menu list-->
+            		<ul>
+            			<li class="user">
+            				<img class="user-icone" src="Content/Images/user-icone.png">
+            			<span>sandroboch</span> 
+                		</li>
+
+                			<li class="my-history">
+                				<img class="history" src="Content/Images/myhistory.png">
+                			<span class="ception-position">ჩემი ისტორია</span></li>
+                			<li class="limit-div">
+                				<img class="limits" src="Content/Images/limits.png">
+                			<span class="ception-position">ლიმიტები</span></li>
+                			<li class="jackpots">
+                			    <img class="jackpot-rules" src="Content/Images/jackpots.png">
+                			<span class="ception-position">ჯეკპოტის წესები</span></li>
+                			<li class="rules">
+                				<img class="help-rules" src="Content/Images/help.png">
+                			<span class="ception-position">თამაშის წესები</span></li>
+                			<li class="exit" style="border-bottom:unset;">
+                				<img class="exit-button" src="Content/Images/exit.png">
+            			         გასვლა
+                            </li>
+            		</ul>
+            	</div><!--close drop down menu list-->
+            </div><!--close menu drop-down div -->
+        </div><!-- close drop down menu-board-->
+        <div class="last-100-button" style="display: none"><!--open last100 div-->
+                        <div class="last-100-header"><!--open last100 div's header-->
+                            <span class="numbers-caption">ბოლო 100 ციფრი</span>
+                            <span class="game-history-caption">თამაშის ისტორია</span>
+                            <img class="close-last100" src="Content/Images/xbutton.png">    
+                        </div>
+                        <div class="last-100-main"><!--open main content last-100 divs-->
+                            <div class="last-100-grid"><!--open  grid container for numbers-->
+                                <div class="last-100-item red-items-100">7</div>
+                                <div class="last-100-item red-items-100">23</div>
+                                <div class="last-100-item red-items-100">18</div>
+                                <div class="last-100-item black-items-100">24</div>
+                                <div class="last-100-item red-items-100">19</div>
+                                <div class="last-100-item black-items-100">26</div>
+                                <div class="last-100-item black-items-100">28</div>
+                                <div class="last-100-item red-items-100">32</div>
+                                <div class="last-100-item zero-property">0</div>
+                                <div class="last-100-item black-items-100">4</div>
+                                <div class="last-100-item red-items-100">7</div>
+                                <div class="last-100-item red-items-100">23</div>
+                                <div class="last-100-item red-items-100">18</div>
+                                <div class="last-100-item black-items-100">24</div>
+                                <div class="last-100-item red-items-100">19</div>
+                                <div class="last-100-item black-items-100">26</div>
+                                <div class="last-100-item black-items-100">28</div>
+                                <div class="last-100-item red-items-100">32</div>
+                                <div class="last-100-item zero-property">0</div>
+                                <div class="last-100-item black-items-100">4</div>
+                                <div class="last-100-item red-items-100">7</div>
+                                <div class="last-100-item red-items-100">23</div>
+                                <div class="last-100-item red-items-100">18</div>
+                                <div class="last-100-item black-items-100">24</div>
+                                <div class="last-100-item red-items-100">19</div>
+                                <div class="last-100-item black-items-100">26</div>
+                                <div class="last-100-item black-items-100">28</div>
+                                <div class="last-100-item red-items-100">32</div>
+                                <div class="last-100-item zero-property">0</div>
+                                <div class="last-100-item black-items-100">4</div>
+                                <div class="last-100-item red-items-100">7</div>
+                                <div class="last-100-item red-items-100">23</div>
+                                <div class="last-100-item red-items-100">18</div>
+                                <div class="last-100-item black-items-100">24</div>
+                                <div class="last-100-item red-items-100">19</div>
+                                <div class="last-100-item black-items-100">26</div>
+                                <div class="last-100-item black-items-100">28</div>
+                                <div class="last-100-item red-items-100">32</div>
+                                <div class="last-100-item zero-property">0</div>
+                                <div class="last-100-item black-items-100">4</div>
+                                <div class="last-100-item red-items-100">7</div>
+                                <div class="last-100-item red-items-100">23</div>
+                                <div class="last-100-item red-items-100">18</div>
+                                <div class="last-100-item black-items-100">24</div>
+                                <div class="last-100-item red-items-100">19</div>
+                                <div class="last-100-item black-items-100">26</div>
+                                <div class="last-100-item black-items-100">28</div>
+                                <div class="last-100-item red-items-100">32</div>
+                                <div class="last-100-item zero-property">0</div>
+                                <div class="last-100-item black-items-100">4</div>
+                                <div class="last-100-item red-items-100">7</div>
+                                <div class="last-100-item red-items-100">23</div>
+                                <div class="last-100-item red-items-100">18</div>
+                                <div class="last-100-item black-items-100">24</div>
+                                <div class="last-100-item red-items-100">19</div>
+                                <div class="last-100-item black-items-100">26</div>
+                                <div class="last-100-item black-items-100">28</div>
+                                <div class="last-100-item red-items-100">32</div>
+                                <div class="last-100-item zero-property">0</div>
+                                <div class="last-100-item black-items-100">4</div>
+                            </div><!--close  grid container for numbers-->  
+                        </div><!--close main content last-100 divs-->
+                    </div><!--open last100 div-->
+                    <div class="game-history-list-main">
+                       <div class="game-history-list-header"><!--open game-history-list-header-->
+                            <span class="spin-id">სპინ ID</span>
+                            <span class="date">თარიღი</span>
+                            <span>მთლიანი ფსონი</span>
+                            <span>მთლიანი მოგება</span>
+                             <span>SCREEN</span>   
+                       </div><!--close game-history-list-header-->
+                       <div class="game-history-list-content"><!--open game-history-list-content-->
+                            <ul class="game-history-list">
+                                <li class="game-history-list-item">
+                                    <span>86037</span>
+                                    <span>16.04.2019 12:45:15</span>
+                                    <span>605.23 ₾</span>
+                                    <span>1024.00 ₾</span>
+                                    <span class="screen-icone">
+                                        <img class="eye-sign" src="Content/Images/eye.png">
+                                    </span>
+                                </li>
+                                <li class="game-history-list-item">
+                                    <span>86037</span>
+                                    <span>16.04.2019 12:45:15</span>
+                                    <span>605.23 ₾</span>
+                                    <span>1024.00 ₾</span>
+                                    <span class="screen-icone">
+                                        <img class="eye-sign" src="Content/Images/eye.png">
+                                    </span>
+                                </li>
+                                <li class="game-history-list-item">
+                                    <span>86037</span>
+                                    <span>16.04.2019 12:45:15</span>
+                                    <span>605.23 ₾</span>
+                                    <span>1024.00 ₾</span>
+                                    <span class="screen-icone">
+                                        <img class="eye-sign" src="Content/Images/eye.png">
+                                    </span>
+                                </li>
+                                <li class="game-history-list-item">
+                                    <span>86037</span>
+                                    <span>16.04.2019 12:45:15</span>
+                                    <span>605.23 ₾</span>
+                                    <span>1024.00 ₾</span>
+                                    <span class="screen-icone">
+                                        <img class="eye-sign" src="Content/Images/eye.png">
+                                    </span>
+                                </li>
+                                <li class="game-history-list-item">
+                                    <span>86037</span>
+                                    <span>16.04.2019 12:45:15</span>
+                                    <span>605.23 ₾</span>
+                                    <span>1024.00 ₾</span>
+                                    <span class="screen-icone">
+                                        <img class="eye-sign" src="Content/Images/eye.png">
+                                    </span>
+                                </li>
+                                <li class="game-history-list-item">
+                                    <span>86037</span>
+                                    <span>16.04.2019 12:45:15</span>
+                                    <span>605.23 ₾</span>
+                                    <span>1024.00 ₾</span>
+                                    <span class="screen-icone">
+                                        <img class="eye-sign" src="Content/Images/eye.png">
+                                    </span>
+                                </li>
+                            </ul> 
+                       </div><!--close game-history-list-content-->
+                   </div><!--close game-history-list-main-->
+                       <div class="racetrack-board"><!--open racetrack-board div-->
+                           <img src="Content/Images/racetrack-board.png">
+                           <div class="buttons">
+                               <div class="less-button">
+                                   <img src="Content/Images/less.png">
+                               </div>
+                               <div class="neighbours-meaning">
+                                  <span class="neighbour-span">2 / 5</span>
+                                   <p>NEIGHBOUR</p>
+                               </div>
+                               <div class="more-button">
+                                   <img src="Content/Images/more.png">
+                               </div>
+                           </div>
+                       </div><!--close racetrack-button div-->
+                       <div class="choose-chip-board"><!-- open  choose-chip-board --> 
+                            <div class="choose-chip"> <!-- open choose chips div -->
+                                <img src="Content/Images/chip-0.png">
+                                <img src="Content/Images/chip-1.png">
+                                <img src="Content/Images/chip-2.png">
+                                <img src="Content/Images/chip-3.png">
+                                <img src="Content/Images/chip-4.png">
+                                <img class="last-chip" src="Content/Images/chip-5.png">
+                           </div> <!-- close choose chips div -->
+                       </div><!-- close  choose-chip-board --> 
+                       <div class="limits-jackpots-rules"><!--open main div limits-jackpots-rules -->
+                                <div class="limits-jackpots-rules-header"><!--open main div limits-jackpots-rules-header active-class -->
+                                    <span class="limits-property">ლიმიტები</span>
+                                    <span class="jackpots-property">ჯეკპოტის წესები</span>
+                                    <span class="rules-property">თამაშის წესები</span>
+                                    <img class="close-limits-jackpots-rules" src="Content/Images/xbutton.png">
+                               </div><!--close main div limits-jackpots-rules-header -->  
+                       <div class="limits-jackpots-rules-board"><!--open  limits-jackpots-rules-board-->
+                               <div class="limits-text" id="limits-text "><!--open limits texts--> 
+                                  "ბედნიერი რიცხვის არჩევა ხდება 50-დან მე-100 სპინის ჩათვლით (Lucky Number) არჩეული რიცხვი გამოდის ეკრანზე. თუ კი ჩავარდნილი ბურთი დაემთხვევა გამო- ცხადებულ „ბედნიერ“ რიცხვს,დაგროვილ ჯეკპოტს იგებს ყველა ის მოთამაშე,რომელთაც მინიმუმ 0.50 თეთრის ოდენობით ფსონი ედო შესაბამის რიცხვზე. ჯეკპოტის თანხა პროპორციულად ნაწილდება ყველა მოგებულ მოთამაშეზე მათ მიერ დადებული ფსონის მიხედვით. ერთდროულად შესაძლებელია მაქსიმუმ 27 ციფრის დაფარვა. მოთამაშეს, რომელმაც ერთ სპინზე ფსონი დადო 27-ზე მეტ რიცხვზე, ჯეკპოტი არ დაერიცხება"
+                                "ბედნიერი რიცხვის არჩევა ხდება 50-დან მე-100 სპინის ჩათვლით (Lucky Number) არჩეული რიცხვი გამოდის ეკრანზე. თუ კი ჩავარდნილი ბურთი დაემთხვევა გამო- ცხადებულ „ბედნიერ“ რიცხვს,დაგროვილ ჯეკპოტს იგებს ყველა ის მოთამაშე,რომელთაც მინიმუმ 0.50 თეთრის ოდენობით ფსონი ედო შესაბამის რიცხვზე. ჯეკპოტის თანხა პროპორციულად ნაწილდება ყველა მოგებულ მოთამაშეზე მათ მიერ დადებული ფსონის მიხედვით. ერთდროულად შესაძლებელია მაქსიმუმ 27 ციფრის დაფარვა. მოთამაშეს, რომელმაც ერთ სპინზე ფსონი დადო 27-ზე მეტ რიცხვზე, ჯეკპოტი არ დაერიცხება"
+                               </div><!--close limits texts-->
+                               <div class="jackpots-text"><!--open limits texts-->   
+                                "ბედნიერი რიცხვის არჩევა ხდება 50-დან მე-100 სპინის ჩათვლით (Lucky Number) არჩეული რიცხვი გამოდის ეკრანზე. თუ კი ჩავარდნილი ბურთი დაემთხვევა გამო- ცხადებულ „ბედნიერ“ რიცხვს,დაგროვილ ჯეკპოტს იგებს ყველა ის მოთამაშე,რომელთაც მინიმუმ 0.50 თეთრის ოდენობით ფსონი ედო შესაბამის რიცხვზე. ჯეკპოტის თანხა პროპორციულად ნაწილდება ყველა მოგებულ მოთამაშეზე მათ მიერ დადებული ფსონის მიხედვით. ერთდროულად შესაძლებელია მაქსიმუმ 27 ციფრის დაფარვა. მოთამაშეს, რომელმაც ერთ სპინზე ფსონი დადო 27-ზე მეტ რიცხვზე, ჯეკპოტი არ დაერიცხება"
+                                "ბედნიერი რიცხვის არჩევა ხდება 50-დან მე-100 სპინის ჩათვლით (Lucky Number) არჩეული რიცხვი გამოდის ეკრანზე. თუ კი ჩავარდნილი ბურთი დაემთხვევა გამო- ცხადებულ „ბედნიერ“ რიცხვს,დაგროვილ ჯეკპოტს იგებს ყველა ის მოთამაშე,რომელთაც მინიმუმ 0.50 თეთრის ოდენობით ფსონი ედო შესაბამის რიცხვზე. ჯეკპოტის თანხა პროპორციულად ნაწილდება ყველა მოგებულ მოთამაშეზე მათ მიერ დადებული ფსონის მიხედვით. ერთდროულად შესაძლებელია მაქსიმუმ 27 ციფრის დაფარვა. მოთამაშეს, რომელმაც ერთ სპინზე ფსონი დადო 27-ზე მეტ რიცხვზე, ჯეკპოტი არ დაერიცხება"
+                               </div><!--close limits texts-->
+                               <div class="rules-text"><!--open limits texts-->   
+                                აპარატი  წარმოადგენს ელექტრონულ მოწყობილობას, კერძოდ: ელექტრონული სათამაშო ბორბალი (რულეტი), (რომლის სათამაშო ბურთულა მოძრაობაში მოდის ელექტრონული წესით ან კრუპიეს მოძრაობის შედეგად) და სპეციალური ველი, რომელზეც ელექტრონულად გამოსახულია მოთამაშის კრედიტის ოდენობა, მოგების ოდენობა, ელექტონული ველი, სადაც გამოსახულია 37 ციფრი, 0-დან 36-ის ჩათვლით და ფსონის სახეობები) რაც საშუალებას აძლევს მოთამაშეს ამ სათამაშო ველზე საკუთარი სურვილისამებრ (მონიტორზე განთავსებული ღილაკის მეშვეობით) აირჩიოს, თუ რომელ ციფრს ან ფსონს მიანიჭოს უპირატესობა. მოთამაშეს შეუძლია აირჩიოს თამაშის ტიპი Europe Live (სადაც ბურთულის მოძრაობას ახორციელებს კრუპიე) ან Auto Roulette (სადაც ბურთულა მოძრაობაში მოდის ელექტრონული წესით). მოთამაშეს ასევე შეუძლია აირჩიოს სხვადასხვა სათამაშო მაგიდა. მაგიდების მთავარი განმასხვავებელი ნიშანი მინიმალური და მაქსიმალური ფსონების რაოდენობაა. ნებისმიერი სათამაშო ტიპის არჩევისას, ეკრანზე გამოისახება: მოთამაშის კრედიტის ოდენობა (ქულებში); მიმდინარე ფსონის ოდენობა; დადებული ფსონის (ფსონების) საერთო ოდენობა; მოგების ოდენობა; სათამაშო მოედანი; ბოლო 10 მომგებიანი რიცხვი; მიმდინარე მომგებიანი რიცხვი; შეტყობინება ფსონების მიღების დაწყების ან დასრულების შესახებ.
+                               </div><!--close limits texts-->
+                        </div> <!--close  limits-jackpots-rules-board-->
+                       </div><!--close main div limits-jackpots-rules -->
+                       <div class="favorites-board"> <!-- favorites-board div open -->
+                           <div class="favorites-templates-frame"><!--open favorites templates frame -->
+                                <div class="favorites-templates"><!--open favorites templates --> 
+                                    <div class="favorites-templates-header"><!--open favorites-templates-header-->
+                                        <form>
+                                            <input type="text" name="" value="">
+                                        </form>
+                                        <span class="win-tamplate-price"><!-- open win-tamplate-price -->
+                                            11.90 ₾
+                                        </span><!-- open win-tamplate-price -->
+                                        <div class="favorites-template-save-button">
+                                        </div>
+                                    </div><!--close favorites-templates-header-->
+                                    <div class="favorites-template-grid">
+                                          <div class="template-grid-item template-grid-zero"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>   
+                                    </div>   
+                                    <div class="template-grid-bets">
+                                        <div class="template-grid-bets-row template-grid-item"></div>
+                                        <div class="template-grid-bets-row1 template-grid-item"></div>
+                                        <div class="template-grid-bets-row2 template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                    </div>
+                                </div><!--close favorites templates -->
+
+                                <div class="favorites-templates"><!--open favorites templates -->   
+                                  <div class="favorites-templates-header"><!--open favorites-templates-header-->
+                                        <form>
+                                            <input type="text" name="" value="">
+                                        </form>
+                                        <span class="win-tamplate-price"><!-- open win-tamplate-price -->
+                                            11.90 ₾
+                                        </span><!-- open win-tamplate-price -->
+                                        <div class="favorites-template-save-button">
+                                        </div>
+                                    </div><!--close favorites-templates-header-->
+                                    <div class="favorites-template-grid">
+                                          <div class="template-grid-item template-grid-zero"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                           <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>  
+                                          <div class="template-grid-item"></div> 
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>
+                                          <div class="template-grid-item"></div>   
+                                    </div>   
+                                    <div class="template-grid-bets">
+                                        <div class="template-grid-bets-row template-grid-item"></div>
+                                        <div class="template-grid-bets-row1 template-grid-item"></div>
+                                        <div class="template-grid-bets-row2 template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                        <div class="template-grid-item"></div>
+                                    </div>
+                                </div><!--close favorites templates -->
+                           </div><!--close favorites templates -->
+                       </div><!-- favorites-board div open -->
+                       <div class="palaced-bet-history"><!--open palaced-bet-history-->
+                            <div class="palaced-bet-history-header"><!--open  palaced-bet-history-header -->
+                                <span class="history-onboard">ისტორია</span>
+                                <img class="palaced-bet-history-close" src="Content/Images/xbutton.png">
+                            </div><!--close palaced-bet-history-header -->
+                            <div class="palaced-bet-history-board"> <!-- open board-history- table-->
+                                <div class="game-table">
+                                    <div class="grid-container"><!--Grid contariner-->
+                                        <div class="item-grid zero">0</div>
+                                        <div class="item-grid red-items">3</div>
+                                        <div class="item-grid black-items">6</div>
+                                        <div class="item-grid red-items">9</div>
+                                        <div class="item-grid red-items">12</div>
+                                        <div class="item-grid black-items">15</div>
+                                        <div class="item-grid red-items">18</div>
+                                        <div class="item-grid red-items">21</div>
+                                        <div class="item-grid black-items">24</div>
+                                        <div class="item-grid red-items">27</div>
+                                        <div class="item-grid red-items">30</div>
+                                        <div class="item-grid black-items">33</div>
+                                        <div class="item-grid red-items">36</div>
+                                        <div class="item-grid other-bets">2 to 1</div>
+                                        <div class="item-grid black-items">2</div>
+                                        <div class="item-grid red-items">5</div>
+                                        <div class="item-grid black-items">8</div>
+                                        <div class="item-grid black-items">11</div>
+                                        <div class="item-grid red-items">14</div>
+                                        <div class="item-grid black-items">17</div>
+                                        <div class="item-grid black-items">20</div>
+                                        <div class="item-grid red-items">23</div>
+                                        <div class="item-grid black-items">26</div>
+                                        <div class="item-grid black-items">29</div>
+                                        <div class="item-grid red-items">32</div>
+                                        <div class="item-grid black-items">35</div>
+                                        <div class="item-grid other-bets">2 to 1</div>
+                                        <div class="item-grid red-items">1</div>
+                                        <div class="item-grid black-items">4</div>
+                                        <div class="item-grid red-items">7</div>
+                                        <div class="item-grid black-items">10</div>
+                                        <div class="item-grid black-items">13</div>
+                                        <div class="item-grid red-items">16</div>
+                                        <div class="item-grid red-items">19</div>
+                                        <div class="item-grid black-items">22</div>
+                                        <div class="item-grid red-items">25</div>
+                                        <div class="item-grid black-items">28</div>
+                                        <div class="item-grid black-items">31</div>
+                                        <div class="item-grid red-items">34</div>
+                                        <div class="item-grid other-bets last-item">2 to 1</div>
+                                    </div><!--close grid container 1-->
+                                    <div class="grid-bets">
+                                        <div class="grid-bets-items grid-bets-row">1 <sup> st </sup> 12</div>
+                                        <div class="grid-bets-items grid-bets-row1">2 <sup> nd </sup>12</div>
+                                        <div class="grid-bets-items grid-bets-row2">3 <sup> rd </sup> 12</div>
+                                        <div class="grid-bets-items">1 - 18</div>
+                                        <div class="grid-bets-items">EVEN</div>
+                                        <div class="grid-bets-items"><img class="all-red-bet" src="Content/Images/red.png" alt="red"></div>
+                                        <div class="grid-bets-items"><img class="all-red-bet" src="Content/Images/black.png" alt="black"></div>
+                                        <div class="grid-bets-items">ODD</div>
+                                        <div class="grid-bets-items">19 - 36</div>
+                                    </div>
+                                    </div><!--Close game table div-->
+                                </div><!-- close board-history- table-->
+                           <div class="board-history-footer"><!-- open  board-history-footer -->
+                               <div class="winning-number-div"><!-- open wining number-div-->
+                                   <span>WINNING NUMBER:</span>
+                                   <div class="numbers">18</div>
+                               </div><!-- close wining number-div-->
+                               <div class="white-captions-board-history">
+                                      GAME ID: 
+                                      <p class="data-numbers">14886</p>
+                               </div>
+                               <div class="white-captions-board-history">
+                                      BALANCE: 
+                                      <p class="data-numbers">17.73 ₾</p>
+                               </div>
+                               <div class="white-captions-board-history">
+                                      TOTAL BET:
+                                      <p class="data-numbers">1.60 ₾</p> 
+                               </div>
+                               <div class="white-captions-board-history">
+                                      TOTAL WIN: 
+                                      <p class="data-numbers">3.80 ₾</p>
+                               </div>
+                               <div class="rebet-button-board-history"><!--open  rebet-button-board-history-->
+                                  <p class="rebet-button-board-history-active ">REBET</p>
+                               </div><!--close rebet-button-board-history-->
+                           </div><!-- close  board-history-footer -->
+                       </div><!--close palaced-bet-history-->
+                       <div class="statistic-main"><!-- open statistic-main div -->
+                        <div class="statistic-board"> <!-- open statistic-board -->
+                                    <div class="statistic-pie-chart"> <!--open statistic-pie-chart div -->
+                                    
+                                    </div><!--close statistic-pie-chart div -->
+                                    <div class="hot-cold-numbers"><!-- open hot-cold-numbers div -->
+                                        <div class="hot-numbers-statistic"> <!-- open hot numbers statistic div -->
+                                            <p class="statistic-hot-numbers-captions">HOT NUMBERS:</p>
+                                            <div class="hot-numbers">
+                                                <div class="red-numbers">9</div>
+                                                <div class="black-numbers">17</div>
+                                                <div class="black-numbers">29</div>
+                                                <div class="red-numbers">12</div>
+                                                <div class="red-numbers">25</div>
+                                            </div>
+                                            <p class="statistic-cold-numbers-captions">COLD NUMBERS:</p>
+                                            <div class="cold-numbers">
+                                                <div class="black-numbers">4</div>
+                                                <div class="red-numbers">7</div>
+                                                <div class="red-numbers">32</div>
+                                                <div class="zero-numbers">0</div>
+                                                <div class="red-numbers">18</div>
+                                            </div>
+                                        </div><!-- close hot numbers statistic div -->
+                                    </div><!-- open hot-cold-numbers div -->
+                                    <div class="red-black-etc"> <!-- open red-black-etc -->
+                                        <div class="other-bet-statistic">
+                                            <div class="other-bet-statistic-items "><!-- red icone-->
+                                                <img src="Content/Images/red.png">
+                                                <p class="percentage">49%</p>
+                                            </div>
+                                            <div class="other-bet-statistic-items "><!-- red icone-->
+                                                <img src="Content/Images/black.png">
+                                                <p class="percentage">51%</p>
+                                            </div>
+                                            <div class="other-bet-statistic-items ">
+                                                <span class="other-bet-statistic-text">ODD</span>
+                                                <p class="percentage">46%</p>
+                                            </div>
+                                            <div class="other-bet-statistic-items ">
+                                                <span class="other-bet-statistic-text">EVEN</span>
+                                                <p class="percentage">54%</p>
+                                            </div>
+                                            <div class="other-bet-statistic-items ">
+                                                <span class="other-bet-statistic-text">1 - 18</span>
+                                                <p class="percentage">46%</p>
+                                            </div>
+                                            <div class="other-bet-statistic-items ">
+                                                <span class="other-bet-statistic-text">19 - 36</span>
+                                                <p class="percentage">54%</p>
+                                            </div>
+                                        </div>
+                                    </div><!-- close red-black-etc -->
+                           </div><!-- close statistic-board-->
+                     </div><!-- close statistic-main div -->
+    </div><!--close game-->
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="Content/Scripts/script.js">    
+</script>
+</body>
+</html>
