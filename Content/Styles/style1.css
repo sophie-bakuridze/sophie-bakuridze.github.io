@@ -366,6 +366,7 @@
     background-color: #0b264e;
     right: 0;
     top: 0;
+    z-index: 9999;
 
 }
 .drop-menu-header {
@@ -862,6 +863,7 @@ form input{
 	position: absolute;
     top: 0px;
     overflow-y: scroll;
+    z-index: 1;
 }
 .limits-jackpots-rules-header {
 	width: 100%;
@@ -936,6 +938,7 @@ form input{
 	width: 1024px;
 	height: 576px;
 	background-color: #0b2851;
+	z-index: 1;
 }
 .palaced-bet-history-header {
 	width: 100%;
@@ -1037,6 +1040,7 @@ form input{
     height: 352px;
     width: 1024px;
     top: 112px;
+    z-index: 1;
 	
 }
 .statistic-board {
@@ -1056,8 +1060,6 @@ form input{
 .hot-cold-numbers {
 	width: 337px;
 	height: 342px; 
-	
-
 }
 .hot-numbers-statistic {
 	margin-top: 50px;
