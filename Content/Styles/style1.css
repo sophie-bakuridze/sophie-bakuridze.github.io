@@ -1051,7 +1051,7 @@ form input{
 	height: 342px; 
 	background-image: url("../Images/pie-chart.png");
 	background-repeat: no-repeat;
-	background-image: center;	
+	background-position: center;
 }
 .hot-cold-numbers {
 	width: 337px;
