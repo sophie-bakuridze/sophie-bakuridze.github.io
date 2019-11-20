@@ -17,11 +17,25 @@
    src:url(../Fonts/crystaluni-medium-webfont.woff2) format("truetype");
 }
 
+body {
+    background: #1b447c;
+}
+
+.content-div {
+    position: absolute;
+    -webkit-transform-origin: top left;
+    -ms-transform-origin: top left;
+    transform-origin: top left;
+    backface-visibility: hidden;
+    -webkit-backface-visibility: hidden;
+}
+
 .game-div {
 	background-image: url("../Images/background.png");
 	background-repeat: no-repeat;
 	width: 1024px;
 	height: 576px;
+	margin: 0 auto;
 	position: relative;
 }
 .header-div {
