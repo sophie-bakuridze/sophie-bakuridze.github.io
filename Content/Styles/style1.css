@@ -1049,7 +1049,9 @@ form input{
 .statistic-pie-chart {
 	width: 350px;
 	height: 342px; 
-	
+	background-image: url("../Images/pie-chart.png");
+	background-repeat: no-repeat;
+	background-image: center;	
 }
 .hot-cold-numbers {
 	width: 337px;
