@@ -918,14 +918,40 @@ form input{
 	padding: 39px 24px 39px 4px;
 	overflow-y: scroll;
 }
-#limits-text {
+.limits-text {
 	display: none;
-	margin-left: 48px;
-	width: 893px;
-	text-align: justify;
-	font-size: 22px;
-	font-family: CrystalBetRegular;
+	padding: unset;
+	width: 100%;
+	height: 100%;
+}
+
+.limits-bets-table {
+    width: 480px;
+    height: 398px;
+    text-align: center;
+    border-collapse:collapse;
+    margin-left: 273px;
+    font-family: CrystalbetBetuniMEDIUM; 
+	font-size: 24px;
+}
+tr, th, td{
+	border-bottom: 2px solid #264268;
+}
+td {
 	color: white;
+}
+th:nth-child(1) {
+	color:#f0da52;
+}
+th:nth-child(2) {
+	color:#d42118;
+}
+th:nth-child(3) {
+	color:#20b23f;
+}
+
+.bet-names {
+	text-align: left;
 }
 .jackpots-text {
 	display: none;
