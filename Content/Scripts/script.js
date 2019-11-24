@@ -1,6 +1,50 @@
 $(document).ready(function(){
       openDropDownMenu()
 
+      $(".palace-bet").on("click", function(){
+      	console.log($(this).data("name"));
+      	let image = `<img class="bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+      });
+
+      $(".palace-bet-split").on("click", function(){   	
+      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+
+      });
+      $(".palace-bet-street").on("click", function(){
+      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+      });
+
+      $(".all-red-numbers").on("click", function(){
+      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+
+      $(".all-black-numbers").on("click", function(){
+      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+
+      $(".column-one-thirtyfour").on("click", function(){
+      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      $(".column-two-thirtyfive").on("click", function(){
+      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      $(".column-three-thirtysix").on("click", function(){
+      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+
 });
 function openDropDownMenu(){
 	$(".menu-button").click(function(){
@@ -150,11 +194,7 @@ function openDropDownMenu(){
 	 });
 
 
-  //      $(".limits-jackpots-rules-close").click(function(){
-	 // 	$(".limits-jackpots-rules").hide();
-
-
-	 // });
+  
 
         $(".close-limits-jackpots-rules").click(function(){
 	 	$(".limits-jackpots-rules").hide();
@@ -165,6 +205,7 @@ function openDropDownMenu(){
     $(window).resize(function () {
         scaleDiv();
     });
+
 
 }
 

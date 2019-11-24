@@ -479,6 +479,646 @@ body {
 .game-table {
 	width: 953px;
 	height: 301px;
+	position: relative;
+}
+.palace-bet-main-board {
+	position: absolute;
+	background-color: transparent;
+	width: 100%;
+	height: 100%;
+}
+.first-four {
+	position: absolute;
+    top: 198px;
+    left: 62px;
+}
+.basket-zero-two {
+	position: absolute;
+    top: 130px;
+    left: 62px;
+}
+.basket-zero-three {
+	position: absolute;
+    top: 62px;
+    left: 62px;
+}
+.six-line-four-six {
+	position: absolute;
+    top: 198px;
+    left: 130px;
+}
+.corner-one-five {
+	position: absolute;
+    top: 130px;
+    left: 130px;
+
+}
+.corner-two-six {
+	position: absolute;
+    top: 62px;
+    left: 130px;
+}
+.six-line-four-nine {
+	position: absolute;
+    top: 198px;
+    left: 198px;
+}
+.corner-four-eight {
+	position: absolute;
+    top: 130px;
+    left: 198px;
+}
+.corner-five-nine {
+	position: absolute;
+    top: 62px;
+    left: 198px;
+}
+.six-line-seven-twelve {
+	position: absolute;
+    top: 198px;
+    left: 266px;
+}
+.corner-seven-eleven {
+	position: absolute;
+    top: 130px;
+    left: 266px;
+}
+.corner-nine-twelve {
+	position: absolute;
+    top: 62px;
+    left: 266px;
+}
+.six-line-ten-fifteen {
+	position: absolute;
+    top: 198px;
+    left: 334px;
+}
+.corner-ten-fourteen {
+	position: absolute;
+    top: 130px;
+    left: 334px;
+}
+.corner-eleven-fifteen {
+	position: absolute;
+    top: 62px;
+    left: 334px;
+}
+.six-line-thirteen-eighteen {
+	position: absolute;
+    top: 198px;
+    left: 402px;
+}
+.corner-thirteen-seventeen {
+	position: absolute;
+    top: 130px;
+    left: 402px;
+}
+.corner-fourteen-eighteen {
+	position: absolute;
+    top: 62px;
+    left: 402px;
+}
+.six-line-sixteen-twentyone {
+	position: absolute;
+    top: 198px;
+    left: 470px;
+}
+.corner-sixteen-twenty {
+	position: absolute;
+    top: 130px;
+    left: 470px;
+}
+.corner-seventeen-twentyone {
+	position: absolute;
+    top: 62px;
+    left: 470px;
+}
+.six-line-nineteen-twentyone {
+	position: absolute;
+    top: 198px;
+    left: 538px;
+}
+.corner-ninetheen-twentythree {
+	position: absolute;
+    top: 130px;
+    left: 538px;
+}
+.corner-twenty-twentyfour {
+	position: absolute;
+    top: 62px;
+    left: 538px;
+}
+.six-line-twentytwo-twentyseven {
+	position: absolute;
+    top: 198px;
+    left: 606px;
+}
+.corner-twentytwo-twentysix {
+	position: absolute;
+    top: 130px;
+    left: 606px;
+}
+.corner-twentythree-twentyseven {
+	position: absolute;
+    top: 62px;
+    left: 606px;
+}
+.six-line-twentyfive-thirty {
+	position: absolute;
+    top: 198px;
+    left: 674px;
+}
+.corner-twentyfive-twentynine {
+	position: absolute;
+    top: 130px;
+    left: 674px;
+}
+.corner-twentysix-thirty {
+	position: absolute;
+    top: 62px;
+    left: 674px;
+}
+.six-line-twentyeight-thirtythree {
+	position: absolute;
+    top: 198px;
+    left: 742px;
+}
+.corner-twentyeight-thirtytwo {
+	position: absolute;
+    top: 130px;
+    left: 742px;
+}
+.corner-twentynine-thirtythree {
+	position: absolute;
+    top: 62px;
+    left: 742px;
+}
+.six-line-thirtyone-thirtysix {
+	position: absolute;
+    top: 198px;
+    left: 810px;
+}
+.corner-thirtyone-thirtyfive {
+	position: absolute;
+    top: 130px;
+    left: 810px;
+}
+.corner-thirtytwo-thirtysix {
+	position: absolute;
+    top: 62px;
+    left: 810px;
+}
+.split-one-two {
+	position: absolute;
+    top: 132px;
+    left: 82px;
+}
+.split-two-three{
+	position: absolute;
+    top: 66px;
+    left: 82px;
+}
+.split-four-five {
+	position: absolute;
+    top: 134px;
+    left: 150px;
+}
+.split-five-six {
+	position: absolute;
+    top: 66px;
+    left: 150px;
+}
+.split-seven-eight {
+	position: absolute;
+    top: 134px;
+    left: 218px;
+}
+.split-eight-nine {
+	position: absolute;
+    top: 66px;
+    left: 218px;
+}
+.split-ten-eleven {
+	position: absolute;
+    top: 134px;
+    left: 286px;
+}
+.split-eleven-twelve {
+	position: absolute;
+    top: 66px;
+    left: 286px;
+}
+.split-thirteen-fourteen {
+	position: absolute;
+    top: 134px;
+    left: 354px;
+}
+.split-fourteen-fifteen {
+	position: absolute;
+    top: 66px;
+    left: 354px;
+}
+.split-sixteen-seventeen {
+	position: absolute;
+    top: 134px;
+    left: 422px;
+}
+.split-seventeen-eighteen {
+	position: absolute;
+    top: 66px;
+    left: 422px;
+}
+.split-nineteen-twenty {
+	position: absolute;
+    top: 134px;
+    left: 490px;
+}
+.split-twenty-twentyone {
+	position: absolute;
+    top: 66px;
+    left: 490px;
+}
+.split-twentytwo-twentythree {
+	position: absolute;
+    top: 134px;
+    left: 556px;
+}
+.split-twentythree-twentyfour {
+	position: absolute;
+    top: 66px;
+    left: 556px;
+}
+.split-twentyfive-twentysix {
+	position: absolute;
+    top: 134px;
+    left: 626px;
+}
+.split-twentysix-twentyseven {
+	position: absolute;
+    top: 66px;
+    left: 626px;
+}
+.split-twentyeight-twentynine {
+	position: absolute;
+    top: 134px;
+    left: 694px;
+}
+.split-twentynine-thirty {
+	position: absolute;
+    top: 66px;
+    left: 694px;
+}
+.split-thirtyone-thirtytwo {
+	position: absolute;
+    top: 134px;
+    left: 762px;
+}
+.split-thirtytwo-thirtythree {
+	position: absolute;
+    top: 66px;
+    left: 762px;
+}
+.split-thirtyfour-thirtyfive {
+	position: absolute;
+    top: 134px;
+    left: 830px;
+}
+.split-thirtyfive-thirtysix {
+	position: absolute;
+    top: 66px;
+    left: 830px;
+}
+.split-zero-one {
+	position: absolute;
+    top: 164px;
+    left: 48px;
+    transform: rotate(90deg);
+}
+.split-one-four {
+	position: absolute;
+    top: 164px;
+    left: 116px;
+    transform: rotate(90deg);
+}
+.split-zero-two {
+	position: absolute;
+    top: 98px;
+    left: 48px;
+    transform: rotate(90deg);
+}
+.split-zero-three {
+	position: absolute;
+    top: 28px;
+    left: 48px;
+    transform: rotate(90deg);
+}
+.split-two-five {
+	position: absolute;
+    top: 98px;
+    left: 116px;
+    transform: rotate(90deg);
+}
+.split-three-six {
+	position: absolute;
+    top: 28px;
+    left: 116px;
+    transform: rotate(90deg);
+}
+.split-four-seven {
+	position: absolute;
+    top: 164px;
+    left: 184px;
+    transform: rotate(90deg);
+}
+.split-five-eight {
+	position: absolute;
+    top: 96px;
+    left: 184px;
+    transform: rotate(90deg);
+}
+.split-six-nine {
+	position: absolute;
+    top: 28px;
+   	left: 184px;
+    transform: rotate(90deg);
+}
+.split-seven-ten {
+	position: absolute;
+    top: 164px;
+   	left: 252px;
+    transform: rotate(90deg);
+}
+.split-eight-eleven {
+	position: absolute;
+    top: 96px;
+   	left: 252px;
+    transform: rotate(90deg);
+}
+.split-nine-twelve {
+	position: absolute;
+    top: 28px;
+   	left: 252px;
+    transform: rotate(90deg);
+}
+.split-ten-thirteen {
+	position: absolute;
+    top: 164px;
+   	left: 320px;
+    transform: rotate(90deg);
+}
+.split-eleven-fourteen {
+	position: absolute;
+    top: 96px;
+   	left: 320px;
+    transform: rotate(90deg);
+}
+.split-twelve-fifteen {
+	position: absolute;
+    top: 28px;
+   	left: 320px;
+    transform: rotate(90deg);
+}
+.split-thirteen-sixteen {
+	position: absolute;
+    top: 164px;
+   	left: 388px;
+    transform: rotate(90deg);
+}
+.split-fourteen-seventeen {
+	position: absolute;
+    top: 96px;
+   	left: 388px;
+    transform: rotate(90deg);
+}
+.split-fifteen-eighteen {
+	position: absolute;
+    top: 28px;
+   	left: 388px;
+    transform: rotate(90deg);
+}
+.split-sixteen-nineteen {
+	position: absolute;
+    top: 164px;
+   	left: 456px;
+    transform: rotate(90deg);
+}
+.split-seventeen-twenty {
+	position: absolute;
+    top: 96px;
+   	left: 456px;
+    transform: rotate(90deg);
+}
+.split-eighteen-twentyone {
+	position: absolute;
+    top: 28px;
+   	left: 456px;
+    transform: rotate(90deg);
+}
+.split-nineteen-twentytwo {
+	position: absolute;
+    top: 164px;
+   	left: 524px;
+    transform: rotate(90deg);
+}
+.split-twenty-twentythree {
+	position: absolute;
+    top: 96px;
+   	left: 524px;
+    transform: rotate(90deg);
+}
+.split-twentyone-twentyfour {
+	position: absolute;
+    top: 28px;
+   	left: 524px;
+    transform: rotate(90deg);
+}
+.split-twentytwo-twentyfive {
+	position: absolute;
+    top: 164px;
+   	left: 592px;
+    transform: rotate(90deg);
+}
+.split-twentythree-twentysix {
+	position: absolute;
+    top: 96px;
+   	left: 592px;
+    transform: rotate(90deg);
+}
+.split-twentyfour-twentyseven {
+	position: absolute;
+    top: 28px;
+   	left: 592px;
+    transform: rotate(90deg);
+}
+.split-twentyfive-twentyeight {
+	position: absolute;
+    top: 164px;
+   	left: 660px;
+    transform: rotate(90deg);
+}
+.split-twentysix-twentynine {
+	position: absolute;
+    top: 96px;
+   	left: 660px;
+    transform: rotate(90deg);
+}
+.split-twentyseven-thirty {
+	position: absolute;
+    top: 28px;
+   	left: 660px;
+    transform: rotate(90deg);
+}
+.split-twentyeight-thirtyone {
+	position: absolute;
+    top: 164px;
+   	left: 728px;
+    transform: rotate(90deg);
+}
+.split-twentynine-thirtytwo {
+	position: absolute;
+    top: 96px;
+   	left: 728px;
+    transform: rotate(90deg);
+}
+.split-thirty-thirtythree {
+	position: absolute;
+    top: 28px;
+   	left: 728px;
+    transform: rotate(90deg);
+}
+.split-thirtyone-thirtyfour {
+	position: absolute;
+    top: 164px;
+   	left: 796px;
+    transform: rotate(90deg);
+}
+.split-thirtytwo-thirtyfive {
+	position: absolute;
+    top: 96px;
+   	left: 796px;
+    transform: rotate(90deg);
+}
+.split-thirtythree-thirtysix {
+	position: absolute;
+    top: 28px;
+   	left: 796px;
+    transform: rotate(90deg);
+}
+.street-one-three {
+	position: absolute;
+    top: 198px;
+   	left: 82px;
+}
+.street-four-six {
+	position: absolute;
+    top: 198px;
+   	left: 150px;
+}
+.street-seven-nine {
+	position: absolute;
+    top: 198px;
+   	left: 218px;
+}
+.street-ten-twelve {
+	position: absolute;
+    top: 198px;
+   	left: 286px;
+}
+.street-thirteen-fifteen {
+	position: absolute;
+    top: 198px;
+   	left: 354px;
+}
+.street-sixteen-eighteen {
+	position: absolute;
+    top: 198px;
+   	left: 422px;
+}
+.street-nineteen-twentyone {
+	position: absolute;
+    top: 198px;
+   	left: 490px;
+}
+.street-twentytwo-twentyfour {
+	position: absolute;
+    top: 198px;
+   	left: 558px;
+}
+.street-twentyfive-twentyseven {
+	position: absolute;
+    top: 198px;
+   	left: 626px;
+}
+.street-twentyeight-thirty {
+	position: absolute;
+    top: 198px;
+   	left: 694px;
+}
+.street-thirtyone-thirtythree {
+	position: absolute;
+    top: 198px;
+   	left: 762px;
+}
+.street-thirtyfour-thirtysix {
+	position: absolute;
+    top: 198px;
+   	left: 830px;
+}
+.all-red-numbers {
+	position: absolute;
+    top: 272px;
+    left: 389px;
+}
+.all-black-numbers {
+	position: absolute;
+    top: 272px;
+    left: 526px;
+}
+.column-one-thirtyfour{
+	position: absolute;
+    top: 167px;
+    left: 898px;
+}
+.column-two-thirtyfive {
+	position: absolute;
+    top: 99px;
+    left: 898px;
+}
+.column-three-thirtysix {
+	position: absolute;
+    top: 31px;
+    left: 898px;
+}
+.column-bet {
+	width: 40px;
+	height:8px;
+	background-color: red;
+}
+.stright-all-black {
+	width: 40px;
+	height:8px;
+	background-color: red;
+}
+.stright-all-red {
+	width: 40px;
+	height:8px;
+	background-color: black;
+}
+.palace-bet {
+	width: 11px;
+	height: 11px;
+	border-radius: 50%;
+	background-color: green;
+}
+.palace-bet-split {
+	width: 40px;
+	height:8px;
+	background-color: blue; 
+}
+.palace-bet-street {
+	width: 40px;
+	height:8px;
+	background-color: yellow; 
 }
 .grid-container {
 	display: grid;
@@ -504,15 +1144,16 @@ body {
 }
 .red-items {
 	background-color: red;
-	padding-top: 22px;
+	line-height: 68px;
 }
 .black-items {
 	background-color: black;
-	padding-top: 22px;
+	line-height: 68px;
 }
 .other-bets {
 	background-color: #1f4b86;
-	padding: 22px 1px;
+	line-height: 68px;
+	/*padding: 22px 1px;*/
 }
 .last-item {
 	border-bottom: 1px solid #92a4c2;
@@ -953,6 +1594,9 @@ th:nth-child(3) {
 .bet-names {
 	text-align: left;
 }
+.max-bet{ 
+	text-align: right;
+ }
 .jackpots-text {
 	display: none;
 	margin-left: 48px;
@@ -1202,4 +1846,17 @@ th:nth-child(3) {
     font-size: 20.6px;
     color: #d4d6da;
 
+}
+.bet-chip{
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    left: -15px;
+    top: -11px;
+}
+.split-bet-chip {
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -15px;
 }
