@@ -1,3 +1,13 @@
+$('*').click(function() {
+        if((window.fullScreen) || (window.innerWidth == screen.width && window.innerHeight == screen.height)) {
+
+        } else {
+            launchFullscreen(document.documentElement);
+        }
+    });
+
+
+
 $(document).ready(function(){
       openDropDownMenu()
 

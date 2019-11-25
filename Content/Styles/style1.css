@@ -893,7 +893,7 @@ body {
 .split-fifteen-eighteen {
 	position: absolute;
     top: 28px;
-   	left: 388px;
+   	left: 388px
     transform: rotate(90deg);
 }
 .split-sixteen-nineteen {
@@ -1092,33 +1092,224 @@ body {
 .column-bet {
 	width: 40px;
 	height:8px;
-	background-color: red;
+	background-color: transparent;
+}
+.stright-bet-zero {
+	position: absolute;
+    top: 96px;
+    left: 26.5px;
+}
+.stright-red-bet-one {
+	position: absolute;
+    top: 164px;
+    left: 94.5px;
+}
+.stright-black-bet-two {
+	position: absolute;
+    top: 96px;
+    left: 94.5px;
+}
+.stright-red-bet-three {
+	position: absolute;
+    top: 28px;
+    left: 94.5px;
+}
+.stright-black-bet-four {
+	position: absolute;
+    top: 164px;
+    left: 162.5px;
+}
+.stright-red-bet-five {
+	position: absolute;
+    top: 96px;
+    left: 162.5px;
+}
+.stright-black-bet-six {
+	position: absolute;
+    top: 28px;
+    left: 162.5px;
+}
+.stright-red-bet-seven {
+	position: absolute;
+    top: 164px;
+    left: 230.5px;
+}
+.stright-black-bet-eight {
+	position: absolute;
+    top: 96px;
+    left: 230.5px;
+}
+.stright-red-bet-nine {
+	position: absolute;
+    top: 28px;
+    left: 230.5px;
+}
+.stright-black-bet-ten {
+	position: absolute;
+    top: 164px;
+    left: 298.5px;
+}
+.stright-black-bet-eleven {
+	position: absolute;
+    top: 96px;
+    left: 298.5px;
+}
+.stright-red-bet-twelve {
+	position: absolute;
+    top: 28px;
+    left: 298.5px;
+}
+.stright-black-bet-thirteen {
+	position: absolute;
+    top: 164px;
+    left: 366.5px;
+}
+.stright-red-bet-fourteen {
+	position: absolute;
+    top: 96px;
+    left: 366.5px;
+}
+.stright-black-bet-fifteen {
+	position: absolute;
+    top: 28px;
+    left: 366.5px;
+}
+.stright-red-bet-sixteen {
+	position: absolute;
+    top: 164px;
+    left: 434.5px;
+}
+.stright-black-bet-seventeen {
+	position: absolute;
+    top: 96px;
+    left: 434.5px;
+}
+.stright-red-bet-eighteen {
+	position: absolute;
+    top: 28px;
+    left: 434.5px;
+}
+.stright-red-bet-nineteen {
+	position: absolute;
+    top: 164px;
+    left: 502.5px;
+}
+.stright-black-bet-twenty {
+	position: absolute;
+    top: 96px;
+    left: 502.5px;
+}
+.stright-red-bet-twentyone {
+	position: absolute;
+    top: 28px;
+    left: 502.5px;
+}
+.stright-black-bet-twentytwo {
+	position: absolute;
+    top: 164px;
+    left: 570.5px;
+}
+.stright-red-bet-twentythree {
+	position: absolute;
+    top: 96px;
+    left: 570.5px;
+}
+.stright-black-bet-twentyfour {
+	position: absolute;
+    top: 28px;
+    left: 570.5px;
+}
+.stright-red-bet-twentyfive {
+	position: absolute;
+    top: 164px;
+    left: 638.5px;
+}
+.stright-black-bet-twentysix {
+	position: absolute;
+    top: 96px;
+    left: 638.5px;
+}
+.stright-red-bet-twentyseven {
+	position: absolute;
+    top: 28px;
+    left: 638.5px;
+}
+.stright-black-bet-twentyeight {
+	position: absolute;
+    top: 164px;
+    left: 706.5px;
+}
+.stright-black-bet-twentynine {
+	position: absolute;
+    top: 96px;
+    left: 706.5px;
+}
+.stright-red-bet-thirty {
+	position: absolute;
+    top: 28px;
+    left: 706.5px;
+}
+.stright-black-bet-twentyone {
+	position: absolute;
+    top: 164px;
+    left: 774.5px;
+}
+.stright-red-bet-thirtytwo {
+	position: absolute;
+    top: 96px;
+    left: 774.5px;
+}
+.stright-black-bet-twentythree {
+	position: absolute;
+    top: 28px;
+    left: 774.5px;
+}
+.stright-red-bet-thirtyfour {
+	position: absolute;
+    top: 164px;
+    left: 842.5px;
+}
+.stright-black-bet-twentyfive {
+	position: absolute;
+    top: 96px;
+    left: 842.5px;
+}
+.stright-red-bet-thirtysix {
+	position: absolute;
+    top: 28px;
+    left: 842.5px;
+}
+.palace-bet-stright {
+	width: 15px;
+	height: 15px;
+	border-radius: 50%;
+	background-color: yellow;
 }
 .stright-all-black {
 	width: 40px;
 	height:8px;
-	background-color: red;
+	background-color: transparent;
 }
 .stright-all-red {
 	width: 40px;
 	height:8px;
-	background-color: black;
+	background-color: transparent;
 }
 .palace-bet {
 	width: 11px;
 	height: 11px;
 	border-radius: 50%;
-	background-color: green;
+	background-color: transparent;
 }
 .palace-bet-split {
 	width: 40px;
 	height:8px;
-	background-color: blue; 
+	background-color: transparent; 
 }
 .palace-bet-street {
 	width: 40px;
 	height:8px;
-	background-color: yellow; 
+	background-color: transparent; 
 }
 .grid-container {
 	display: grid;
@@ -1326,6 +1517,22 @@ form input{
 	height: 57px;
 	background-color: #37ba50;
 	background-image: url("../Images/save.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+.favorites-template-edit-button {
+	width: 38px;
+	height: 39px;
+	background-image: url("../Images/edit-button.png");
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 3px;
+}
+.favorites-template-delete-button {
+	width: 38px;
+	height: 39px;
+	background-image: url("../Images/delete-button.png");
 	background-position: center;
 	background-repeat: no-repeat;
 	border-radius: 3px;
