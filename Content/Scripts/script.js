@@ -54,6 +54,48 @@ $(document).ready(function(){
       	$(this).append(image)
      
       });
+      $(".first-dozen").on("click", function(){
+      	let image = `<img class="dozen-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      $(".second-dozen").on("click", function(){
+      	let image = `<img class="dozen-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      $(".third-dozen").on("click", function(){
+      	let image = `<img class="dozen-bet-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      
+      $(".palace-bet-straight").on("click", function(){
+      	let image = `<img class="straighrt-bets-img" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      $(".first-to-eighteen").on("click", function(){
+      	let image = `<img class="other-bets-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      $(".even").on("click", function(){
+      	let image = `<img class="other-bets-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      $(".odd").on("click", function(){
+      	let image = `<img class="other-bets-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+      $(".nineteen-to-thirtysix").on("click", function(){
+      	let image = `<img class="other-bets-chip" src="Content/Images/chip.png">`;
+      	$(this).append(image)
+     
+      });
+
 
 });
 function openDropDownMenu(){

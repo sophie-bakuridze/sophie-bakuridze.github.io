@@ -502,7 +502,8 @@ body {
     top: 62px;
     left: 62px;
 }
-.six-line-four-six {
+.six-line-one-six {
+
 	position: absolute;
     top: 198px;
     left: 130px;
@@ -1094,203 +1095,248 @@ body {
 	height:8px;
 	background-color: transparent;
 }
-.stright-bet-zero {
+.straight-bet-zero {
 	position: absolute;
     top: 96px;
     left: 26.5px;
 }
-.stright-red-bet-one {
+.straight-red-bet-one {
 	position: absolute;
     top: 164px;
     left: 94.5px;
 }
-.stright-black-bet-two {
+.straight-black-bet-two {
 	position: absolute;
     top: 96px;
     left: 94.5px;
 }
-.stright-red-bet-three {
+.straight-red-bet-three {
 	position: absolute;
     top: 28px;
     left: 94.5px;
 }
-.stright-black-bet-four {
+.straight-black-bet-four {
 	position: absolute;
     top: 164px;
     left: 162.5px;
 }
-.stright-red-bet-five {
+.straight-red-bet-five {
 	position: absolute;
     top: 96px;
     left: 162.5px;
 }
-.stright-black-bet-six {
+.straight-black-bet-six {
 	position: absolute;
     top: 28px;
     left: 162.5px;
 }
-.stright-red-bet-seven {
+.straight-red-bet-seven {
 	position: absolute;
     top: 164px;
     left: 230.5px;
 }
-.stright-black-bet-eight {
+.straight-black-bet-eight {
 	position: absolute;
     top: 96px;
     left: 230.5px;
 }
-.stright-red-bet-nine {
+.straight-red-bet-nine {
 	position: absolute;
     top: 28px;
     left: 230.5px;
 }
-.stright-black-bet-ten {
+.straight-black-bet-ten {
 	position: absolute;
     top: 164px;
     left: 298.5px;
 }
-.stright-black-bet-eleven {
+.straight-black-bet-eleven {
 	position: absolute;
     top: 96px;
     left: 298.5px;
 }
-.stright-red-bet-twelve {
+.straight-red-bet-twelve {
 	position: absolute;
     top: 28px;
     left: 298.5px;
 }
-.stright-black-bet-thirteen {
+.straight-black-bet-thirteen {
 	position: absolute;
     top: 164px;
     left: 366.5px;
 }
-.stright-red-bet-fourteen {
+.straight-red-bet-fourteen {
 	position: absolute;
     top: 96px;
     left: 366.5px;
 }
-.stright-black-bet-fifteen {
+.straight-black-bet-fifteen {
 	position: absolute;
     top: 28px;
     left: 366.5px;
 }
-.stright-red-bet-sixteen {
+.straight-red-bet-sixteen {
 	position: absolute;
     top: 164px;
     left: 434.5px;
 }
-.stright-black-bet-seventeen {
+.straight-black-bet-seventeen {
 	position: absolute;
     top: 96px;
     left: 434.5px;
 }
-.stright-red-bet-eighteen {
+.straight-red-bet-eighteen {
 	position: absolute;
     top: 28px;
     left: 434.5px;
 }
-.stright-red-bet-nineteen {
+.straight-red-bet-nineteen {
 	position: absolute;
     top: 164px;
     left: 502.5px;
 }
-.stright-black-bet-twenty {
+.straight-black-bet-twenty {
 	position: absolute;
     top: 96px;
     left: 502.5px;
 }
-.stright-red-bet-twentyone {
+.straight-red-bet-twentyone {
 	position: absolute;
     top: 28px;
     left: 502.5px;
 }
-.stright-black-bet-twentytwo {
+.straight-black-bet-twentytwo {
 	position: absolute;
     top: 164px;
     left: 570.5px;
 }
-.stright-red-bet-twentythree {
+.straight-red-bet-twentythree {
 	position: absolute;
     top: 96px;
     left: 570.5px;
 }
-.stright-black-bet-twentyfour {
+.straight-black-bet-twentyfour {
 	position: absolute;
     top: 28px;
     left: 570.5px;
 }
-.stright-red-bet-twentyfive {
+.straight-red-bet-twentyfive {
 	position: absolute;
     top: 164px;
     left: 638.5px;
 }
-.stright-black-bet-twentysix {
+.straight-black-bet-twentysix {
 	position: absolute;
     top: 96px;
     left: 638.5px;
 }
-.stright-red-bet-twentyseven {
+.straight-red-bet-twentyseven {
 	position: absolute;
     top: 28px;
     left: 638.5px;
 }
-.stright-black-bet-twentyeight {
+.straight-black-bet-twentyeight {
 	position: absolute;
     top: 164px;
     left: 706.5px;
 }
-.stright-black-bet-twentynine {
+.straight-black-bet-twentynine {
 	position: absolute;
     top: 96px;
     left: 706.5px;
 }
-.stright-red-bet-thirty {
+.straight-red-bet-thirty {
 	position: absolute;
     top: 28px;
     left: 706.5px;
 }
-.stright-black-bet-twentyone {
+.straight-black-bet-twentyone {
 	position: absolute;
     top: 164px;
     left: 774.5px;
 }
-.stright-red-bet-thirtytwo {
+.straight-red-bet-thirtytwo {
 	position: absolute;
     top: 96px;
     left: 774.5px;
 }
-.stright-black-bet-twentythree {
+.straight-black-bet-twentythree {
 	position: absolute;
     top: 28px;
     left: 774.5px;
 }
-.stright-red-bet-thirtyfour {
+.straight-red-bet-thirtyfour {
 	position: absolute;
     top: 164px;
     left: 842.5px;
 }
-.stright-black-bet-twentyfive {
+.straight-black-bet-twentyfive {
 	position: absolute;
     top: 96px;
     left: 842.5px;
 }
-.stright-red-bet-thirtysix {
+.straight-red-bet-thirtysix {
 	position: absolute;
     top: 28px;
     left: 842.5px;
 }
-.palace-bet-stright {
+.first-dozen {
+	position: absolute;
+    top: 208px;
+    left: 73px;
+}
+.second-dozen {
+	position: absolute;
+    top: 208px;
+    left: 344px;
+}
+.third-dozen {
+	position: absolute;
+    top: 208px;
+    left: 616px;
+}
+.first-to-eighteen {
+	position: absolute;
+    top: 256px;
+    left: 73px;
+}
+.even {
+	position: absolute;
+    top: 256px;
+    left: 209px;
+}
+.odd {
+	position: absolute;
+    top: 256px;
+    left: 617px;
+}
+.nineteen-to-thirtysix {
+	position: absolute;
+    top: 256px;
+    left: 753px;
+}
+.other-bet-button {
+	width: 130px;
+    height: 40px;
+    background-color: transparent;
+}
+.dozen {
+	width: 263px;
+    height: 40px;
+    background-color: transparent;
+}
+.palace-bet-straight {
 	width: 15px;
 	height: 15px;
 	border-radius: 50%;
-	background-color: yellow;
+	background-color: transparent;
 }
-.stright-all-black {
+.straight-all-black {
 	width: 40px;
 	height:8px;
 	background-color: transparent;
 }
-.stright-all-red {
+.straight-all-red {
 	width: 40px;
 	height:8px;
 	background-color: transparent;
@@ -2066,4 +2112,26 @@ th:nth-child(3) {
     height: 40px;
     position: absolute;
     top: -15px;
+}
+.dozen-bet-chip {
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 111px;
+
+}
+.other-bets-chip {
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 0px;
+    left: 50px;
+}
+.straighrt-bets-img {
+	width: 40px;
+    height: 40px;
+    position: absolute;
+    top: -12px;
+    left: -9px;
 }
