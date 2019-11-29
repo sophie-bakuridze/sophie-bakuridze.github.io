@@ -8,8 +8,13 @@ $('*').click(function() {
 
 
 
+function addBet(name, multiplier) {
+	let image = `<img class="bet-chip" src="Content/Images/chip.png">`;
+	var el = $("div[data-name='" + name  +"']");
+  	$(el).append(image);
+  }
 $(document).ready(function(){
-      openDropDownMenu()
+      
 
       $(".palace-bet").on("click", function(){
       	console.log($(this).data("name"));
@@ -96,10 +101,7 @@ $(document).ready(function(){
      
       });
 
-
-});
-function openDropDownMenu(){
-	$(".menu-button").click(function(){
+      $(".menu-button").click(function(){
 	 $(".drop-down-menu-board").css("display","block");
 	})
 	$(".X-button").click(function(){
@@ -254,12 +256,89 @@ function openDropDownMenu(){
 
 
 
+
     $(window).resize(function () {
         scaleDiv();
     });
 
+ // console.log(boardData.PlayerInfo.SpinsDistributionPercents.Odd);
+ 
+ 	$(".money").html(boardData.PlayerInfo.AvailableAmount + '₾');
+ 	$(".bet-numbers").html(boardData.PlayerInfo.PlacedAmount + ' ₾');
+ 	$(".win-numbers").html(boardData.PlayerInfo.WonAmount + ' ₾');
+ 	$(".jackpot-number").html(boardData.JackpotAmount);
+ 	$(".spin-number").html(boardData.PlayerInfo.SpinNumber);
+ 	$(".user-name").html(boardData.PlayerInfo.DisplayName);
+ 	$(".SpinNumber").html(boardData.PlayerInfo.LatestSpins[0].SpinNumber);
+ 	$(".SpinDate").html(boardData.PlayerInfo.LatestSpins[0].SpinDate);
+ 	$(".BetAmount").html(boardData.PlayerInfo.LatestSpins[0].BetAmount  + ' ₾');
+ 	$(".WonAmount").html(boardData.PlayerInfo.LatestSpins[0].WonAmount  + ' ₾');
+ 	$(".red-percentage").html(boardData.SpinsDistributionPercents.Red + ' %');
+ 	$(".black-percentage").html(boardData.SpinsDistributionPercents.Black + ' %');
+ 	$(".odd-percentage").html(boardData.SpinsDistributionPercents.Odd + ' %');
+ 	$(".even-percentage").html(boardData.SpinsDistributionPercents.Even + ' %');
+ 	$(".one-eighteen-percentage").html(boardData.SpinsDistributionPercents.FirstHalf + ' %');
+ 	$(".nineteen-thirtysix-percentage").html(boardData.SpinsDistributionPercents.SecondHalf + ' %');
 
-}
+
+ 	 
+ 		let LastHoundreedSpins = boardData.Last100SpinNumbers;
+ 	   for(let key in LastHoundreedSpins ){
+        
+        let div = `<div class="last-100-item ${LastHoundreedSpins[key].Color}" >${LastHoundreedSpins[key].Number}</div>`;
+        $(".last-100-grid").append(div);				  
+
+    }
+
+    for(var i = 0;i < boardData.PlayerInfo.PlacedBets.length;i ++) {
+    	
+		var name = boardData.PlayerInfo.PlacedBets[i].BetName;
+		var Multiplier = boardData.PlayerInfo.PlacedBets[i].Multiplier;
+		addBet(name, Multiplier);
+    }
+    
+    //   $( ".palace-bet" ).each( function( index, element ){
+				// if($( this ).attr('data-name') == "Basket 0/1/2/3") {
+				// 	console.log('gveshvela')
+				// }
+				// });
+
+
+    	let Hotnumberstatistic = boardData.SpinsDistributionPercents.HotNumbers; 
+        for(let key in boardData.SpinsDistributionPercents.HotNumbers) {
+        	
+        	if(Hotnumberstatistic[key].Color === 0){
+        		
+        		Hotnumberstatistic[key].Color = "Red"
+        	}
+        	if(Hotnumberstatistic[key].Color === 1){
+        		
+        		Hotnumberstatistic[key].Color = "Black"
+        	}
+        	let div = `<div class="${Hotnumberstatistic[key].Color}" >${Hotnumberstatistic[key].Number}</div>`;
+        	$(".hot-numbers").append(div);
+        }
+        
+        let Coldnumberstatistics = boardData.SpinsDistributionPercents.ColdNumbers;
+        for(let key in boardData.SpinsDistributionPercents.ColdNumbers) {
+        	
+        	if(Coldnumberstatistics[key].Color === 0){
+        		
+        		Coldnumberstatistics[key].Color = "Red"
+        	}
+        	if(Coldnumberstatistics[key].Color === 1){
+        		
+        		Coldnumberstatistics[key].Color = "Black"
+        	}
+let div = `<div class="${Coldnumberstatistics[key].Color}" >${Coldnumberstatistics[key].Number}</div>`;
+        	$(".cold-numbers").append(div);
+        }
+});
+
+// function openDropDownMenu(){
+	
+        	
+// }
 
    
     

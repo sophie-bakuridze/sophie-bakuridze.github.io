@@ -82,6 +82,11 @@ body {
 	 font-family: CrystalbetBetuniBold;
 	 font-size: 25.6px;
 	 color: #fde053;	
+	 position: absolute;
+}
+.georgian-lari {
+	position: absolute;
+	color: white;
 }
 .bet-win-divs {
 	height: 80px;
@@ -91,7 +96,16 @@ body {
 .bet {
   margin-bottom:10px; 
 }
+.Red{
+	background: red;
+}
+.Black{
+	background-color: black
 
+}
+.Green {
+	background-color: #21ba3e;
+}
 .bet, .win {
 	width: 190px;
 	height: 35px;
@@ -254,10 +268,19 @@ body {
 	color: #6b85ab;
 }
 .spin-id {
-	/*margin-right: 120px;*/
+	/*margin-left: 120px;*/
 }
-.date {
-
+.SpinDate {
+	position: absolute;
+    margin-left: 122px;
+}
+.BetAmount {
+	position: absolute;
+    margin-left: 385px;
+}
+.WonAmount {
+	position: absolute;
+    margin-left: 650px;
 }
 .game-history-list-content {
 	width: calc(100% - 80px);
@@ -286,7 +309,7 @@ body {
 	font-family: CrystalbetBetuniMEDIUM;
 	text-align: center;
 	font-size: 19.2px;
-	color: #6b85ab;
+	color: #e9ebee;
 }
 .screen-icone {
 	width: 67px;
@@ -419,6 +442,7 @@ body {
 }
 .drop-menu-list ul {
 	list-style-type: none;
+	position: absolute;
 }
 .drop-menu-list ul li {
 	height: 63px;
@@ -429,6 +453,11 @@ body {
 	
 	margin-right: 21px;
 }
+.user-name {
+	position: absolute;
+    top: -11px;
+}
+
 .history {
 	margin-top: 18px;
 	margin-right: 21px;
@@ -894,7 +923,7 @@ body {
 .split-fifteen-eighteen {
 	position: absolute;
     top: 28px;
-   	left: 388px
+   	left: 388px;
     transform: rotate(90deg);
 }
 .split-sixteen-nineteen {
@@ -1341,6 +1370,7 @@ body {
 	height:8px;
 	background-color: transparent;
 }
+
 .palace-bet {
 	width: 11px;
 	height: 11px;
@@ -2016,12 +2046,36 @@ th:nth-child(3) {
 	display: flex;
 	justify-content: space-between;
 }
+.Black,
+.Red{
+		width: 58px;
+		height: 56px;
+		text-align: center;
+		line-height: 56px;
+			color: white;
+	
+	text-align: center;
+	font-size: 22px;
+	font-family: CrystalbetBetuniMEDIUM;
+	border-radius: 3px;
+}
+/*.hot-numbers > .asd{
+	width: 58px;
+	height: 56px;
+	background-color: red;
+	color: white;
+	padding-top: 15px;
+	text-align: center;
+	font-size: 22px;
+	font-family: CrystalbetBetuniMEDIUM;
+	border-radius: 3px;
+}*/
 .cold-numbers {
 	margin-top: 12px;
 	display: flex;
 	justify-content: space-between;
 }
-.red-numbers {
+/*.red-numbers {
 	width: 58px;
 	height: 56px;
 	background-color: red;
@@ -2042,7 +2096,7 @@ th:nth-child(3) {
 	font-size: 22px;
 	font-family: CrystalbetBetuniMEDIUM;
 	border-radius: 3px;
-}
+}*/
 .zero-numbers {
 	width: 58px;
 	height: 56px;
@@ -2093,6 +2147,42 @@ th:nth-child(3) {
     font-size: 20.6px;
     color: #849abb;
 }
+.red-percentage {
+	float: right;
+	font-family: CrystalbetBetuniMEDIUM;
+    font-size: 20.6px;
+    color: #849abb;
+}
+.black-percentage {
+	float: right;
+	font-family: CrystalbetBetuniMEDIUM;
+    font-size: 20.6px;
+    color: #849abb;
+}
+.odd-percentage {
+	float: right;
+	font-family: CrystalbetBetuniMEDIUM;
+    font-size: 20.6px;
+    color: #849abb;
+}
+.even-percentage {
+	float: right;
+	font-family: CrystalbetBetuniMEDIUM;
+    font-size: 20.6px;
+    color: #849abb;
+}
+.one-eighteen-percentage {
+	float: right;
+	font-family: CrystalbetBetuniMEDIUM;
+    font-size: 20.6px;
+    color: #849abb;
+}
+.nineteen-thirtysix-percentage {
+	float: right;
+	font-family: CrystalbetBetuniMEDIUM;
+    font-size: 20.6px;
+    color: #849abb;
+}
 .other-bet-statistic-text {
 
 	font-family: CrystalbetBetuniMEDIUM;
@@ -2112,6 +2202,7 @@ th:nth-child(3) {
     height: 40px;
     position: absolute;
     top: -15px;
+    transform: rotate(-90deg);
 }
 .dozen-bet-chip {
 	width: 40px;
