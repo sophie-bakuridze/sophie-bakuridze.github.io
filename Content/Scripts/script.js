@@ -6,119 +6,133 @@ $('*').click(function() {
         }
     });
 
+	 let bet = 0.1;
 
+	function addBet(name, multiplier) {
+		let image = `<img class="bet-chip" src="Content/Images/${bet}.png">`;
+		var el = $("div[data-name='" + name  +"']");
+		$(el).append(image);
+	}
 
-function addBet(name, multiplier) {
-	let image = `<img class="bet-chip" src="Content/Images/chip.png">`;
-	var el = $("div[data-name='" + name  +"']");
-  	$(el).append(image);
-  }
-$(document).ready(function(){
-      
+	  $(document).ready(function(){
+
 
       $(".palace-bet").on("click", function(){
-      	console.log($(this).data("name"));
-      	let image = `<img class="bet-chip" src="Content/Images/chip.png">`;
+      	
+      	let image = `<img class="bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
       });
 
       $(".palace-bet-split").on("click", function(){   	
-      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="split-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
 
       });
       $(".palace-bet-street").on("click", function(){
-      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="street-split-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
       });
 
       $(".all-red-numbers").on("click", function(){
-      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="split-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
 
       $(".all-black-numbers").on("click", function(){
-      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="split-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
 
       $(".column-one-thirtyfour").on("click", function(){
-      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="column-split-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".column-two-thirtyfive").on("click", function(){
-      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="column-split-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".column-three-thirtysix").on("click", function(){
-      	let image = `<img class="split-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="column-split-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".first-dozen").on("click", function(){
-      	let image = `<img class="dozen-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="dozen-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".second-dozen").on("click", function(){
-      	let image = `<img class="dozen-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="dozen-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".third-dozen").on("click", function(){
-      	let image = `<img class="dozen-bet-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="dozen-bet-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       
       $(".palace-bet-straight").on("click", function(){
-      	let image = `<img class="straighrt-bets-img" src="Content/Images/chip.png">`;
+      	let image = `<img class="straighrt-bets-img" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".first-to-eighteen").on("click", function(){
-      	let image = `<img class="other-bets-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="other-bets-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".even").on("click", function(){
-      	let image = `<img class="other-bets-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="other-bets-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".odd").on("click", function(){
-      	let image = `<img class="other-bets-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="other-bets-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
       $(".nineteen-to-thirtysix").on("click", function(){
-      	let image = `<img class="other-bets-chip" src="Content/Images/chip.png">`;
+      	let image = `<img class="other-bets-chip" src="Content/Images/${bet}.png">`;
       	$(this).append(image)
      
       });
 
-      $(".menu-button").click(function(){
-	 $(".drop-down-menu-board").css("display","block");
-	})
-	$(".X-button").click(function(){
-	 $(".drop-down-menu-board").css("display","none");
+      $(".video-stream").click(function(){
+	 	$(".video-stream-board").css("display","block");
+	 	
+	 });
+
+      
+     $(".menu-button").click(function(){
+	  $(".drop-down-menu-board").css("display","block");
+
+	 })
+
+	 $(".X-button").click(function(){
+	  $(".drop-down-menu-board").css("display","none");
+
 	})
 
-	$(".item-100").click(function(){
-	 $(".last-100-button").css("display","block");
+	 $(".item-100").click(function(){
+	  $(".last-100-button").css("display","block");
+
 	})
+
 	$(".close-last100").click(function(){
 	 $(".last-100-button").css("display","none");
 	  $(".game-history-list-main").css("display","none");
 	})
+
 	$(".game-history-caption").click(function(){
 	 $(".game-history-list-main").css("display","block");
 	 $(".game-history-caption").css({"border-bottom":"6px solid","color":"#fde053"});
 	 $(".numbers-caption").css({"border":"transparent","color":"white"});
+
 	});
 
 	
@@ -126,6 +140,7 @@ $(document).ready(function(){
 	 $(".game-history-list-main").css("display","none");
 	 $(".game-history-caption").css({"border":"none","color":"white"});
 	 $(".numbers-caption").css({"border-bottom":"6px solid","color":"#fde053"});
+
 	});
 
 	$(".statistics").click(function(){
@@ -173,6 +188,16 @@ $(document).ready(function(){
 	 	
 	 });
 
+	 $(".my-history").click(function(){
+	 $(".last-100-button").css("display","block");
+	 $(".game-history-list-main").css("display","block");
+	 $(".game-history-caption").css({"border-bottom":"6px solid","color":"#fde053"});
+	 $(".numbers-caption").css({"border":"transparent","color":"white"});
+	 $(".drop-down-menu-board").css("display","none");
+
+
+	});
+
 	 $(".palaced-bet-history-close").click(function(){
 	 	$(".palaced-bet-history").css("display","none");
 	 	
@@ -181,9 +206,22 @@ $(document).ready(function(){
 
 	 $(".chips").click(function(){
 	 	$(".choose-chip-board").css("display","block");
+	 	$(".choose-chip-board").show();
+	 	$(".choose-chip").show();
+
 	 	
 	 });
-     
+	
+     $(".bet-chips").on("click",function(){
+     	bet = $(this).data("name");
+     	$(".choose-chip").css("display","none");
+     	$(".choose-chip-board").css("display","none");
+     	$(".chips").css("background-image",'url(Content/Images/' + bet + '.png)');
+     	console.log($(this))
+ 
+
+     });
+
       $(".limit-div").click(function(){
 	 	$(".limits-jackpots-rules").css("display","block");
 	 	$(".limits-property").css({"border-bottom":"6px solid","color":"#fde053","height":"68px"})
@@ -193,6 +231,7 @@ $(document).ready(function(){
 	 	 $(".rules-text").hide();
 	 	$(".limits-text").show();
 	 	$(".jackpots-text").hide();	 	
+	 	$(".drop-down-menu-board").css("display","none");
 	 });
 
       $(".limits-property").click(function(){
@@ -202,6 +241,7 @@ $(document).ready(function(){
 	 	$(".limits-text").show();
 	 	$(".jackpots-text").hide();
 	 	$(".rules-text").hide();
+	 	$(".drop-down-menu-board").css("display","none");
 	 });
 
        $(".jackpots").click(function(){
@@ -213,6 +253,7 @@ $(document).ready(function(){
 	 	$(".rules-text").hide();
 	 	$(".limits-text").hide();
 	 	$(".jackpots-text").show();
+	 	$(".drop-down-menu-board").css("display","none");
 	 });
 
        $(".jackpots-property").click(function(){
@@ -223,6 +264,7 @@ $(document).ready(function(){
 	 	$(".limits-text").hide();
 	 	$(".jackpots-text").show();
 	 	$(".rules-text").hide();
+	 	$(".drop-down-menu-board").css("display","none");
 	 });
 
 
@@ -236,6 +278,7 @@ $(document).ready(function(){
 	 	$(".rules-text").show();
 	 	$(".limits-text").hide();
 	 	$(".jackpots-text").hide();
+	 	$(".drop-down-menu-board").css("display","none");
 	 });
 
        $(".rules-property").click(function(){
@@ -261,7 +304,7 @@ $(document).ready(function(){
         scaleDiv();
     });
 
- // console.log(boardData.PlayerInfo.SpinsDistributionPercents.Odd);
+ 
  
  	$(".money").html(boardData.PlayerInfo.AvailableAmount + '₾');
  	$(".bet-numbers").html(boardData.PlayerInfo.PlacedAmount + ' ₾');
@@ -295,13 +338,10 @@ $(document).ready(function(){
 		var name = boardData.PlayerInfo.PlacedBets[i].BetName;
 		var Multiplier = boardData.PlayerInfo.PlacedBets[i].Multiplier;
 		addBet(name, Multiplier);
+		
     }
     
-    //   $( ".palace-bet" ).each( function( index, element ){
-				// if($( this ).attr('data-name') == "Basket 0/1/2/3") {
-				// 	console.log('gveshvela')
-				// }
-				// });
+    
 
 
     	let Hotnumberstatistic = boardData.SpinsDistributionPercents.HotNumbers; 
@@ -330,7 +370,7 @@ $(document).ready(function(){
         		
         		Coldnumberstatistics[key].Color = "Black"
         	}
-let div = `<div class="${Coldnumberstatistics[key].Color}" >${Coldnumberstatistics[key].Number}</div>`;
+		let div = `<div class="${Coldnumberstatistics[key].Color}" >${Coldnumberstatistics[key].Number}</div>`;
         	$(".cold-numbers").append(div);
         }
 });
