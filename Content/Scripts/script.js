@@ -107,7 +107,7 @@ $('*').click(function() {
 	 	
 	 });
 
-      
+   
      $(".menu-button").click(function(){
 	  $(".drop-down-menu-board").css("display","block");
 
@@ -117,6 +117,14 @@ $('*').click(function() {
 	  $(".drop-down-menu-board").css("display","none");
 
 	})
+
+	 $(".video-stream-close").click(function(event){
+	 	
+	 	$(".video-stream-board").fadeOut();
+	 	
+	
+	 });
+
 
 	 $(".item-100").click(function(){
 	  $(".last-100-button").css("display","block");

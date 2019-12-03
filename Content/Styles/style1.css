@@ -168,7 +168,7 @@ body {
 	position: absolute;
 	top: 0;
 	left: 0px;
-	z-index: 999;
+	z-index: 9;
 }
 .video-stream-close {
 	background-color:  rgba(0, 0, 0, 0.6);
@@ -187,6 +187,7 @@ body {
 	background-position: center;
 	height: 50px;
 	margin-top: 10px;
+	z-index: 9999;
 }
 .video {
 	width: 37px;
