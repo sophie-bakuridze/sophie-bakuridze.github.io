@@ -13,6 +13,7 @@ $('*').click(function() {
 		var el = $("div[data-name='" + name  +"']");
 		$(el).append(image);
 	}
+		
 
 	  $(document).ready(function(){
 
@@ -216,10 +217,9 @@ $('*').click(function() {
 	 	$(".choose-chip-board").css("display","block");
 	 	$(".choose-chip-board").show();
 	 	$(".choose-chip").show();
-
 	 	
 	 });
-	
+
      $(".bet-chips").on("click",function(){
      	bet = $(this).data("name");
      	$(".choose-chip").css("display","none");
@@ -312,7 +312,7 @@ $('*').click(function() {
         scaleDiv();
     });
 
- 
+  console.log(boardData.Last100SpinNumbers[0]);
  
  	$(".money").html(boardData.PlayerInfo.AvailableAmount + '₾');
  	$(".bet-numbers").html(boardData.PlayerInfo.PlacedAmount + ' ₾');
@@ -330,15 +330,24 @@ $('*').click(function() {
  	$(".even-percentage").html(boardData.SpinsDistributionPercents.Even + ' %');
  	$(".one-eighteen-percentage").html(boardData.SpinsDistributionPercents.FirstHalf + ' %');
  	$(".nineteen-thirtysix-percentage").html(boardData.SpinsDistributionPercents.SecondHalf + ' %');
+ 	
+
 
 
  	 
- 		let LastHoundreedSpins = boardData.Last100SpinNumbers;
+   let LastHoundreedSpins = boardData.Last100SpinNumbers;
  	   for(let key in LastHoundreedSpins ){
         
-        let div = `<div class="last-100-item ${LastHoundreedSpins[key].Color}" >${LastHoundreedSpins[key].Number}</div>`;
-        $(".last-100-grid").append(div);				  
-
+   let div = `<div class="last-100-item ${LastHoundreedSpins[key].Color}" >${LastHoundreedSpins[key].Number}</div>`;
+        $(".last-100-grid").append(div);
+       
+	    }
+	      
+    	for(index = 0; index < 4; index++) {
+    	let latestFourSpin = `<div class="item"><div class="last-100-item ${boardData.Last100SpinNumbers[index].Color}" >${boardData.Last100SpinNumbers[index].Number}</div></div>` ;
+    	
+    	$(".last-100").prepend(latestFourSpin)
+    	
     }
 
     for(var i = 0;i < boardData.PlayerInfo.PlacedBets.length;i ++) {
@@ -348,8 +357,7 @@ $('*').click(function() {
 		addBet(name, Multiplier);
 		
     }
-    
-    
+  
 
 
     	let Hotnumberstatistic = boardData.SpinsDistributionPercents.HotNumbers; 
